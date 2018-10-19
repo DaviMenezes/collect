@@ -1,5 +1,5 @@
 {
-    "name": "dvi/collect",
+    "name": "dvi/collection",
     "description": "Collect - Illuminate Collections as a separate package.",
     "keywords": ["laravel", "collection"],
     "license": "MIT",
