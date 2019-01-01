@@ -18,14 +18,14 @@ if (! class_exists(Illuminate\Support\Collection::class)) {
         }
     }
 
-    if (! function_exists('collect')) {
+    if (! function_exists('collection')) {
         /**
          * Create a collection from the given value.
          *
          * @param  mixed  $value
          * @return \Tightenco\Collect\Support\Collection
          */
-        function collect($value = null)
+        function collection($value = null)
         {
             return new Collection($value);
         }
